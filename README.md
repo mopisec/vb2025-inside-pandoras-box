@@ -6,6 +6,8 @@ Details are available at [VB conference website](https://www.virusbulletin.com/c
 
 ### decode_credui_dll.py
 
+[File](./decode_credui_dll.py)
+
 `credui.dll` implemented mechanism to XOR decode its code during runtime to obstruct both static and dynamic malware analysis.
 This Python script will decode and patch the `credui.dll` file, so malware sample can be analyzed easier.
 
